@@ -1,4 +1,4 @@
-.container{
+.container {
   width: 640px;
   margin: auto;
   margin-top: 150px;
@@ -10,17 +10,16 @@
   border-radius: 10px;
   padding: 40px 50px;
 }
-.container hr{
+.container hr {
   height: 2px;
   border: none;
   background: #707070;
 }
-.container h2{
+.container h2 {
   font-weight: 500;
   font-size: 27px;
-
 }
-.container ul li{
+.container ul li {
   display: flex;
   align-items: center;
   height: 70px;
@@ -31,7 +30,7 @@
   font-size: 20px;
   cursor: pointer;
 }
-.container button{
+.container button {
   margin: auto;
   width: 250px;
   height: 65px;
@@ -42,15 +41,40 @@
   border-radius: 8px;
   cursor: pointer;
 }
-.container .index{
- margin: auto;
- 
+.container .index {
+  margin: auto;
 }
-.container .correct{
+.container .correct {
   background: #dffff2;
   border-color: #00d397;
 }
-.container .wrong{
+.container .wrong {
   background: #ffebeb;
   border-color: #ff4a4a;
+}
+
+@media (min-width: 375px) and (max-width: 412px) {
+  .container {
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+  }
+  body {
+    overflow: hidden; /* Hide scrollbars */
+  }
+
+  .container h1 {
+    font-size: 24px;
+  }
+
+  .container h2 {
+    font-size: 22px;
+  }
+
+  .container ul li {
+    height: 45px;
+    font-size: 14px;
+    padding-left: 15px;
+  }
 }
